@@ -95,13 +95,13 @@ plt.imshow(img)
 # Overview of the code
 * [main.py](./main.py) - Base FastAPI functions  
 * [app.py](./app.py) - YoloV8 functions     
-* [./router/detection_post.py](detection_post.py) - Object Detection functions   
+* [detection_post.py](detection_post.py) - Object Detection functions   
 * [./models](./models) - YoloV8 models folder    
 
 
-* [docs.postman_collection.json](./docs) - Postman Collection for docs API    
-* [Health Check.postman_collection.json](./HealthCheck) - Postman Collection for Health Check API   
-* [Object Detection.postman_collection.json](./ObjectDetection) - Postman Collection for Object Detection API    
+* [docs.postman_collection.json](./docs.postman_collection.json) - Postman Collection for docs API    
+* [Health Check.postman_collection.json](./Health-Check.postman_collection.json) - Postman Collection for Health Check API   
+* [Object Detection.postman_collection.json](./Object-Detection.postman_collection.json) - Postman Collection for Object Detection API    
 
 ---
 # Test
