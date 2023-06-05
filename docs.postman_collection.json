@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "1cea54a4-03c3-4871-81ea-f476f881594c",
+		"name": "docs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "492020",
+		"_collection_link": "https://www.postman.com/vizitland/workspace/yolov8-fastapi/collection/492020-1cea54a4-03c3-4871-81ea-f476f881594c?action=share&creator=492020&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "docs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8001\\",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

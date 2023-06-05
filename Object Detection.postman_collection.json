@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "4654acfb-479c-463d-95f7-3e1d095a35b2",
+		"name": "Object Detection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "492020",
+		"_collection_link": "https://www.postman.com/vizitland/workspace/yolov8-fastapi/collection/492020-4654acfb-479c-463d-95f7-3e1d095a35b2?action=share&creator=492020&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "object_detection_to_json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Raha/Downloads/download (1).jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8001\\detection\\img_object_detection_to_json",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"detection",
+						"img_object_detection_to_json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_detection_to_img",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Raha/Downloads/download (2).jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8001\\detection\\img_object_detection_to_img",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"detection",
+						"img_object_detection_to_img"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
