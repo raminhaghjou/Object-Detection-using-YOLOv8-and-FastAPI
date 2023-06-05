@@ -95,6 +95,7 @@ plt.imshow(img)
 # Overview of the code
 * [main.py](./main.py) - Base FastAPI functions  
 * [app.py](./app.py) - YoloV8 functions     
+* [./router/detection_post.py](./router/detection_post.py) - Object Detection functions   
 * [./models](./models) - YoloV8 models folder    
 
 ---
